@@ -154,28 +154,28 @@ http://api.sparcpharma.com/api/
 			  "city": "SAN DIEGO",
 			  "state": "CA",
 			  "zipCode": "92126-2716",
-			  "latitude": "32.9139498",
-			  "longitude": "-117.13006",
+			  "latitude": 32.9139498,
+			  "longitude": -117.13006,
 			  "hoursOfOperation": "11018208223082240822508226082270918",
 			  "phone": "8585663490",
 			  "npi": "1376559666",
 			  "chainCode": "181",
-			  "distance": "3.89"
+			  "distance": 3.89
 			},
 			"drug": {
 			  "ndcCode": "781107705",
 			  "brandGenericIndicator": "G",
 			  "gsn": "3774",
-			  "drugRanking": "1",
-			  "quantity": "30.0",
-			  "quantityRanking": "1"
+			  "drugRanking": 1,
+			  "quantity": 30,
+			  "quantityRanking": 1
 			},
 			"pricing": {
-			  "price": "4.50",
+			  "price": 4.50,
 			  "priceBasis": "MAC",
-			  "usualAndCustomaryPrice": "23.99",
-			  "macPrice": "4.50",
-			  "awpPrice": "26.17"
+			  "usualAndCustomaryPrice": 23.99,
+			  "macPrice": 4.50,
+			  "awpPrice": 26.17
 			}
 		      }
 		    ],
