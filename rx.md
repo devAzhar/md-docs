@@ -271,3 +271,23 @@ http://api.sparc.com/api/
 
 		  }
 		}
+
+## Errors
+### Client reference not passed
+
+		{
+		    "msg": "Client reference is not provided."
+		}
+		
+### Authentication header not passed/Invalid authentication header
+
+		{
+		    "msg": "Invalid autehntication header"
+		}
+
+### Invalid client reference
+
+		{
+		    "msg": "Could not authenticate the client reference, please connect with your administrator."
+		}
+		
