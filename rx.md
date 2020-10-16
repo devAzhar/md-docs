@@ -19,8 +19,8 @@ MedImpact web service is a SOAP based service, we have developed a JSON wrapper 
 This CashCard JSON Service is classified as an "Entity" service in that it contains business logic that is associated with a business entity (i.e., a "Cash Card") which can be re-used for a number of different business processes.
 
 #### Service URL Address
- - End Point: **http://api.sparc.com/api**
- - Domain: **api.sparc.com**
+ - End Point: **http://api.sparcpharma.com/api**
+ - Domain: **api.sparcpharma.com**
  - Server IP: **159.203.149.70**
 
 Consumers will be using the same URL for UAT and Production. To differentiate between UAT and Production, the end-point expect a mode data (either passed as query string or passed as post form data)
@@ -40,7 +40,7 @@ You will receive the values of these headers during the on-boarding process.
 Following operations are supported.
 
 ### 1. GetDrugInfo
-http://api.sparc.com/api/
+http://api.sparcpharma.com/api/
 
 *Required headers*
  - *rx-auth-header*
@@ -52,7 +52,7 @@ http://api.sparc.com/api/
 
 **Sample Post Request**
 
-        http://api.sparc.com/api/?action=GetDrugInfo&gsn=3775
+        http://api.sparcpharma.com/api/?action=GetDrugInfo&gsn=3775
         rx-auth-header:*********************
         rx-header-client-ref:*********************   
    
@@ -84,7 +84,7 @@ http://api.sparc.com/api/
 		}
 
 ### 2. FindDrugByName
-http://api.sparc.com/api/
+http://api.sparcpharma.com/api/
 
 *Required headers*
  - *rx-auth-header*
@@ -97,7 +97,7 @@ http://api.sparc.com/api/
  
 **Sample Post Request**
 
-        http://api.sparc.com/api/?action=FindDrugByName&prefixText=pro
+        http://api.sparcpharma.com/api/?action=FindDrugByName&prefixText=pro
         rx-auth-header:*********************
         rx-header-client-ref:*********************   
    
@@ -124,7 +124,7 @@ http://api.sparc.com/api/
 		}
 
 ### 3. GetPharmacyDrugPricing
-http://api.sparc.com/api/
+http://api.sparcpharma.com/api/
 
 *Required headers*
  - *rx-auth-header*
@@ -137,7 +137,7 @@ http://api.sparc.com/api/
 
 **Sample Post Request**
 
-        http://api.sparc.com/api/?action=GetPharmacyDrugPricing&zipCode=92131&drugName=ALPRAZOLAM INTENSOL
+        http://api.sparcpharma.com/api/?action=GetPharmacyDrugPricing&zipCode=92131&drugName=ALPRAZOLAM INTENSOL
         rx-auth-header:*********************
         rx-header-client-ref:*********************   
    
@@ -224,7 +224,7 @@ http://api.sparc.com/api/
 		}
 
 ### 4. GetPharmacies
-http://api.sparc.com/api/
+http://api.sparcpharma.com/api/
 
 *Required headers*
  - *rx-auth-header*
@@ -236,7 +236,7 @@ http://api.sparc.com/api/
 
 **Sample Post Request**
 
-        http://api.sparc.com/api/?action=GetPharmacies&zipCode=92131
+        http://api.sparcpharma.com/api/?action=GetPharmacies&zipCode=92131
         rx-auth-header:*********************
         rx-header-client-ref:*********************   
    
