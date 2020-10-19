@@ -273,6 +273,9 @@ http://api.sparcpharma.com/api/
 		}
 
 ## Errors
+
+In case of any error, you will get 401 HTTP Status Code.
+
 ### Client reference not passed
 
 		{
