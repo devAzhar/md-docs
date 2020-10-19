@@ -1,20 +1,20 @@
-CashCard JSON Service Guide
+SparcPharma Search JSON Service Guide
 =============================================	
 
 ## Document Overview
 
-This document is an Implementation Guide to aid in understanding the proper use of JSON wrapper for the CashCard Service.
+This document is an Implementation Guide to aid in understanding the proper use of JSON wrapper for the SparcPharma Search Service.
 
 This service is an entity service in inventory of web services. As an entity service, the operations of this service are typically useful for assisting in the automation of multiple business processes. 
 
-This Implementation Guide contains information useful to “consumers” of the operations of this service. This information is intended to supplement the detailed WSDL and XML Schema documents associated with this service. For each service operation, this document includes a description of the operation functions, the Request and Response messages, the pre-conditions, the post-conditions, and the error messages. For further information about the contents of the Request and Response messages, see the “Data Dictionary for the Web Service Messages”.
+This Implementation Guide contains information useful to “consumers” of the operations of this service. This information is intended to supplement the detailed input, headers and JSON response associated with this service. For each service operation, this document includes a description of the operation functions, the Request and Response messages, the pre-conditions, the post-conditions, and the error messages. 
 
-## CashCard JSON Service
-We have a SOAP based service, we have developed a JSON wrapper web service (referred as CashCard JSON Service) that connects with CashCard SOAP service and return the JSON data to its consumers.
+## SparcPharma Search JSON Service
+This is a JSON Web service that can be consumed by different applications. Service operations and parameters are defined in the following sections.
 
 ### Service Overview
 #### Purpose
-This CashCard JSON Service is classified as an "Entity" service in that it contains business logic that is associated with a business entity (i.e., a "Cash Card") which can be re-used for a number of different business processes.
+This SparcPharma Search JSON Service is classified as an "Entity" service in that it contains business logic that is associated with a business entity (i.e., a "Cash Card") which can be re-used for a number of different business processes.
 
 #### Service URL Address
  - End Point: **http://api.sparcpharma.com/api**
@@ -27,7 +27,7 @@ Consumers will be using the same URL for UAT and Production. To differentiate be
  - *mode=live*
 
 #### Security
-CashCard JSON Service supports post method only. This service expects following two mandatory headers to be passed with each call.
+SparcPharma Search JSON Service supports post method only. This service expects following two mandatory headers to be passed with each call.
 
 1. *rx-auth-header*
 1. *rx-header-client-ref*
