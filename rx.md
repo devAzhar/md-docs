@@ -1,18 +1,16 @@
-MedImpact CashCard JSON Service Guide
+CashCard JSON Service Guide
 =============================================	
 
 ## Document Overview
 
-> *Extract from CashCard_WS_Implementation_Guide_v1.24-2-1.pdf*
+This document is an Implementation Guide to aid in understanding the proper use of JSON wrapper for the CashCard Service.
 
-This document is an Implementation Guide to aid in understanding the proper use of JSON wrapper for the MedImpact's CashCard Service.
-
-This service is an entity service in MedImpact's inventory of web services. As an entity service, the operations of this service are typically useful for assisting in the automation of multiple business processes. 
+This service is an entity service in inventory of web services. As an entity service, the operations of this service are typically useful for assisting in the automation of multiple business processes. 
 
 This Implementation Guide contains information useful to “consumers” of the operations of this service. This information is intended to supplement the detailed WSDL and XML Schema documents associated with this service. For each service operation, this document includes a description of the operation functions, the Request and Response messages, the pre-conditions, the post-conditions, and the error messages. For further information about the contents of the Request and Response messages, see the “Data Dictionary for the Web Service Messages”.
 
 ## CashCard JSON Service
-MedImpact web service is a SOAP based service, we have developed a JSON wrapper web service (referred as CashCard JSON Service) that connects with MedImpact's CashCard service and return the JSON data to its consumers.
+We have a SOAP based service, we have developed a JSON wrapper web service (referred as CashCard JSON Service) that connects with CashCard SOAP service and return the JSON data to its consumers.
 
 ### Service Overview
 #### Purpose
