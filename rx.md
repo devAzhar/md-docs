@@ -14,7 +14,7 @@ This is a JSON Web service that can be consumed by different applications. Servi
 
 ### Service Overview
 #### Purpose
-This SparcPharma Search JSON Service is classified as an "Entity" service in that it contains business logic that is associated with a business entity (i.e., a "Cash Card") which can be re-used for a number of different business processes.
+This SparcPharma Search JSON Service is classified as an "Entity" service in that it contains business logic that is associated with a business entity (i.e., a "Sparc Pharma") which can be re-used for a number of different business processes.
 
 #### Service URL Address
  - End Point: **http://api.sparcpharma.com/api**
